@@ -1,0 +1,1356 @@
+# depslib dependency file v1.0
+1513037184 source:/home/omar/Documentos/Serna/ProyectoAlv/Proyecto/Character.cpp
+	"Character.h"
+	"Coordinate.h"
+	"Match.h"
+	<SDL2/SDL_image.h>
+
+1513037183 /home/omar/Documentos/Serna/ProyectoAlv/Proyecto/Character.h
+	"Coordinate.h"
+	<string>
+	<SDL2/SDL.h>
+
+1512937299 /home/omar/Documentos/Serna/ProyectoAlv/Proyecto/Coordinate.h
+
+1512880232 source:/home/omar/Documentos/Serna/ProyectoAlv/Proyecto/Coordinate.cpp
+	"Coordinate.h"
+
+1513036699 source:/home/omar/Documentos/Serna/ProyectoAlv/Proyecto/main.cpp
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<string>
+	"Map.h"
+	"Match.h"
+	"Principal.h"
+	"Kevin.h"
+	"Brayan.h"
+	"Character.h"
+
+1513037184 source:/home/omar/Documentos/Serna/ProyectoAlv/Proyecto/Principal.cpp
+	"Principal.h"
+	"Match.h"
+	<cstdio>
+
+1513037184 /home/omar/Documentos/Serna/ProyectoAlv/Proyecto/Principal.h
+	"Character.h"
+	"SDL2/SDL.h"
+
+1512933261 source:/home/omar/Documentos/Serna/ProyectoAlv/Proyecto/Map.cpp
+	"Map.h"
+
+1512933987 /home/omar/Documentos/Serna/ProyectoAlv/Proyecto/Map.h
+	<fstream>
+
+1513036389 /home/omar/Documentos/Serna/ProyectoAlv/Proyecto/Match.h
+	<SDL2/SDL.h>
+	"Character.h"
+
+1513036487 source:/home/omar/Documentos/Serna/ProyectoAlv/Proyecto/Match.cpp
+	"Match.h"
+
+1512936397 source:/home/omar/Documentos/Serna/ProyectoAlv/Proyecto/Cholo.cpp
+	"Cholo.h"
+
+1512942193 /home/omar/Documentos/Serna/ProyectoAlv/Proyecto/Cholo.h
+	"Character.h"
+	"Coordinate.h"
+
+1512962639 source:/home/omar/Documentos/Serna/ProyectoAlv/Proyecto/Brayan.cpp
+	"Brayan.h"
+
+1512962695 /home/omar/Documentos/Serna/ProyectoAlv/Proyecto/Brayan.h
+	"Cholo.h"
+
+1512965720 source:/home/omar/Documentos/Serna/ProyectoAlv/Proyecto/Nivel.cpp
+	"Nivel.h"
+	<fstream>
+
+1512963932 /home/omar/Documentos/Serna/ProyectoAlv/Proyecto/Nivel.h
+	"Cholo.h"
+
+1512963094 source:/home/omar/Documentos/Serna/ProyectoAlv/Proyecto/Kevin.cpp
+	"Kevin.h"
+
+1512962710 /home/omar/Documentos/Serna/ProyectoAlv/Proyecto/Kevin.h
+	"Cholo.h"
+
+1513570228 source:/home/carlos/Escritorio/Proyecto/Brayan.cpp
+	"Brayan.h"
+	"Match.h"
+	"Game.h"
+
+1513569268 /home/carlos/Escritorio/Proyecto/Brayan.h
+	"Cholo.h"
+
+1513570012 /home/carlos/Escritorio/Proyecto/Cholo.h
+	"Character.h"
+	"Coordinate.h"
+
+1513415114 /home/carlos/Escritorio/Proyecto/Character.h
+	"Coordinate.h"
+	<string>
+	<SDL2/SDL.h>
+
+1513255656 /home/carlos/Escritorio/Proyecto/Coordinate.h
+
+1513570318 source:/home/carlos/Escritorio/Proyecto/Character.cpp
+	"Character.h"
+	"Coordinate.h"
+	"Match.h"
+	<SDL2/SDL_image.h>
+	"Game.h"
+
+1513615009 /home/carlos/Escritorio/Proyecto/Match.h
+	<SDL2/SDL.h>
+	"Character.h"
+	"Nivel.h"
+
+1513570626 source:/home/carlos/Escritorio/Proyecto/Cholo.cpp
+	"Cholo.h"
+	"Match.h"
+	<cmath>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+
+1513255714 source:/home/carlos/Escritorio/Proyecto/Coordinate.cpp
+	"Coordinate.h"
+
+1513570228 source:/home/carlos/Escritorio/Proyecto/Kevin.cpp
+	"Kevin.h"
+	"Match.h"
+	"Game.h"
+
+1513569268 /home/carlos/Escritorio/Proyecto/Kevin.h
+	"Cholo.h"
+
+1513614998 source:/home/carlos/Escritorio/Proyecto/main.cpp
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<stdio.h>
+	<string>
+	"Match.h"
+	"Principal.h"
+	"Kevin.h"
+	"Brayan.h"
+	"Character.h"
+	"Nivel.h"
+	"Game.h"
+	"Button.h"
+	<fstream>
+
+1512933988 /home/carlos/Escritorio/Proyecto/Map.h
+	<fstream>
+
+1513574036 /home/carlos/Escritorio/Proyecto/Principal.h
+	"Character.h"
+	<SDL2/SDL.h>
+	<stack>
+
+1512933262 source:/home/carlos/Escritorio/Proyecto/Map.cpp
+	"Map.h"
+
+1513615569 source:/home/carlos/Escritorio/Proyecto/Match.cpp
+	"Match.h"
+	"SDL2/SDL.h"
+	"SDL2/SDL_image.h"
+	"Game.h"
+	<sstream>
+	<fstream>
+
+1513581242 source:/home/carlos/Escritorio/Proyecto/Nivel.cpp
+	"Nivel.h"
+	<fstream>
+	"Brayan.h"
+	"Kevin.h"
+	"Bayron.h"
+	"Match.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<sstream>
+	"Game.h"
+
+1513562112 /home/carlos/Escritorio/Proyecto/Nivel.h
+	"Cholo.h"
+	"Principal.h"
+
+1513581242 source:/home/carlos/Escritorio/Proyecto/Principal.cpp
+	"Principal.h"
+	"Match.h"
+	<cstdio>
+	"Game.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+
+1513041374 source:/home/carlos/Escritorio/Proyecto/Item.cpp
+	"Item.h"
+
+1513041452 /home/carlos/Escritorio/Proyecto/Item.h
+	<SDL2/SDL.h>
+	<string>
+
+1513615195 source:/home/carlos/Escritorio/Proyecto/Game.cpp
+	"Game.h"
+	"Match.h"
+	"Button.h"
+	"Nivel.h"
+	<iostream>
+	<string>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_image.h>
+	<fstream>
+
+1513614345 /home/carlos/Escritorio/Proyecto/Game.h
+	<SDL2/SDL.h>
+	"Match.h"
+
+1513570227 source:/home/omar/Documentos/ProyectoPruebas/Proyecto/Brayan.cpp
+	"Brayan.h"
+	"Match.h"
+	"Game.h"
+
+1513569267 /home/omar/Documentos/ProyectoPruebas/Proyecto/Brayan.h
+	"Cholo.h"
+
+1513570012 /home/omar/Documentos/ProyectoPruebas/Proyecto/Cholo.h
+	"Character.h"
+	"Coordinate.h"
+
+1513415114 /home/omar/Documentos/ProyectoPruebas/Proyecto/Character.h
+	"Coordinate.h"
+	<string>
+	<SDL2/SDL.h>
+
+1513255656 /home/omar/Documentos/ProyectoPruebas/Proyecto/Coordinate.h
+
+1513573837 /home/omar/Documentos/ProyectoPruebas/Proyecto/Match.h
+	<SDL2/SDL.h>
+	"Character.h"
+	"Nivel.h"
+
+1513562111 /home/omar/Documentos/ProyectoPruebas/Proyecto/Nivel.h
+	"Cholo.h"
+	"Principal.h"
+
+1513041452 /home/omar/Documentos/ProyectoPruebas/Proyecto/Item.h
+	<SDL2/SDL.h>
+	<string>
+
+1513574036 /home/omar/Documentos/ProyectoPruebas/Proyecto/Principal.h
+	"Character.h"
+	<SDL2/SDL.h>
+	<stack>
+
+1513563687 /home/omar/Documentos/ProyectoPruebas/Proyecto/Game.h
+	<SDL2/SDL.h>
+	"Match.h"
+
+1513501244 source:/home/omar/Documentos/ProyectoPruebas/Proyecto/Button.cpp
+	"Button.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+
+1513570318 source:/home/omar/Documentos/ProyectoPruebas/Proyecto/Character.cpp
+	"Character.h"
+	"Coordinate.h"
+	"Match.h"
+	<SDL2/SDL_image.h>
+	"Game.h"
+
+1513570626 source:/home/omar/Documentos/ProyectoPruebas/Proyecto/Cholo.cpp
+	"Cholo.h"
+	"Match.h"
+	<cmath>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+
+1513255714 source:/home/omar/Documentos/ProyectoPruebas/Proyecto/Coordinate.cpp
+	"Coordinate.h"
+
+1513041374 source:/home/omar/Documentos/ProyectoPruebas/Proyecto/Item.cpp
+	"Item.h"
+
+1513570227 source:/home/omar/Documentos/ProyectoPruebas/Proyecto/Kevin.cpp
+	"Kevin.h"
+	"Match.h"
+	"Game.h"
+
+1513569267 /home/omar/Documentos/ProyectoPruebas/Proyecto/Kevin.h
+	"Cholo.h"
+
+1513574778 source:/home/omar/Documentos/ProyectoPruebas/Proyecto/main.cpp
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<stdio.h>
+	<string>
+	"Match.h"
+	"Principal.h"
+	"Kevin.h"
+	"Brayan.h"
+	"Character.h"
+	"Nivel.h"
+	"Game.h"
+	"Button.h"
+
+1512933988 /home/omar/Documentos/ProyectoPruebas/Proyecto/Map.h
+	<fstream>
+
+1512933262 source:/home/omar/Documentos/ProyectoPruebas/Proyecto/Map.cpp
+	"Map.h"
+
+1513580851 source:/home/omar/Documentos/ProyectoPruebas/Proyecto/Match.cpp
+	"Match.h"
+	"SDL2/SDL.h"
+	"SDL2/SDL_image.h"
+	"Game.h"
+	<sstream>
+
+1513581242 source:/home/omar/Documentos/ProyectoPruebas/Proyecto/Nivel.cpp
+	"Nivel.h"
+	<fstream>
+	"Brayan.h"
+	"Kevin.h"
+	"Bayron.h"
+	"Match.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<sstream>
+	"Game.h"
+
+1513581242 source:/home/omar/Documentos/ProyectoPruebas/Proyecto/Principal.cpp
+	"Principal.h"
+	"Match.h"
+	<cstdio>
+	"Game.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+
+1513580586 source:/home/omar/Documentos/ProyectoPruebas/Proyecto/Game.cpp
+	"Game.h"
+	"Match.h"
+	"Button.h"
+	"Nivel.h"
+	<iostream>
+	<string>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_image.h>
+
+1513501361 /home/omar/Documentos/ProyectoPruebas/Proyecto/Button.h
+	<SDL2/SDL.h>
+	<string>
+	"Coordinate.h"
+
+1513570227 source:/home/omar/Documentos/ProyectoPruebas/Proyecto/Bayron.cpp
+	"Bayron.h"
+	"Match.h"
+	"Game.h"
+
+1513569267 /home/omar/Documentos/ProyectoPruebas/Proyecto/Bayron.h
+	"Cholo.h"
+
+1513570228 source:/home/carlos/Escritorio/Proyecto/Bayron.cpp
+	"Bayron.h"
+	"Match.h"
+	"Game.h"
+
+1513569268 /home/carlos/Escritorio/Proyecto/Bayron.h
+	"Cholo.h"
+
+1513501244 source:/home/carlos/Escritorio/Proyecto/Button.cpp
+	"Button.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+
+1513501362 /home/carlos/Escritorio/Proyecto/Button.h
+	<SDL2/SDL.h>
+	<string>
+	"Coordinate.h"
+
+1513570228 source:/home/carlos/Escritorio/ProyectoVersionGina/Bayron.cpp
+	"Bayron.h"
+	"Match.h"
+	"Game.h"
+
+1513569268 /home/carlos/Escritorio/ProyectoVersionGina/Bayron.h
+	"Cholo.h"
+
+1513570012 /home/carlos/Escritorio/ProyectoVersionGina/Cholo.h
+	"Character.h"
+	"Coordinate.h"
+
+1513415114 /home/carlos/Escritorio/ProyectoVersionGina/Character.h
+	"Coordinate.h"
+	<string>
+	<SDL2/SDL.h>
+
+1513255656 /home/carlos/Escritorio/ProyectoVersionGina/Coordinate.h
+
+1513625025 /home/carlos/Escritorio/ProyectoVersionGina/Match.h
+	<SDL2/SDL.h>
+	"Character.h"
+	"Nivel.h"
+
+1513562112 /home/carlos/Escritorio/ProyectoVersionGina/Nivel.h
+	"Cholo.h"
+	"Principal.h"
+
+1513574036 /home/carlos/Escritorio/ProyectoVersionGina/Principal.h
+	"Character.h"
+	<SDL2/SDL.h>
+	<stack>
+
+1513614345 /home/carlos/Escritorio/ProyectoVersionGina/Game.h
+	<SDL2/SDL.h>
+	"Match.h"
+
+1513570228 source:/home/carlos/Escritorio/ProyectoVersionGina/Brayan.cpp
+	"Brayan.h"
+	"Match.h"
+	"Game.h"
+
+1513569268 /home/carlos/Escritorio/ProyectoVersionGina/Brayan.h
+	"Cholo.h"
+
+1513501244 source:/home/carlos/Escritorio/ProyectoVersionGina/Button.cpp
+	"Button.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+
+1513501362 /home/carlos/Escritorio/ProyectoVersionGina/Button.h
+	<SDL2/SDL.h>
+	<string>
+	"Coordinate.h"
+
+1513570318 source:/home/carlos/Escritorio/ProyectoVersionGina/Character.cpp
+	"Character.h"
+	"Coordinate.h"
+	"Match.h"
+	<SDL2/SDL_image.h>
+	"Game.h"
+
+1513625157 source:/home/carlos/Escritorio/ProyectoVersionGina/Cholo.cpp
+	"Cholo.h"
+	"Match.h"
+	<cmath>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+
+1513255714 source:/home/carlos/Escritorio/ProyectoVersionGina/Coordinate.cpp
+	"Coordinate.h"
+
+1513625618 source:/home/carlos/Escritorio/ProyectoVersionGina/Game.cpp
+	"Game.h"
+	"Match.h"
+	"Button.h"
+	"Nivel.h"
+	<iostream>
+	<string>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_image.h>
+	<fstream>
+
+1513570228 source:/home/carlos/Escritorio/ProyectoVersionGina/Kevin.cpp
+	"Kevin.h"
+	"Match.h"
+	"Game.h"
+
+1513569268 /home/carlos/Escritorio/ProyectoVersionGina/Kevin.h
+	"Cholo.h"
+
+1513614998 source:/home/carlos/Escritorio/ProyectoVersionGina/main.cpp
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<stdio.h>
+	<string>
+	"Match.h"
+	"Principal.h"
+	"Kevin.h"
+	"Brayan.h"
+	"Character.h"
+	"Nivel.h"
+	"Game.h"
+	"Button.h"
+	<fstream>
+
+1513625046 source:/home/carlos/Escritorio/ProyectoVersionGina/Nivel.cpp
+	"Nivel.h"
+	<fstream>
+	"Brayan.h"
+	"Kevin.h"
+	"Bayron.h"
+	"Match.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<sstream>
+	"Game.h"
+
+1513581242 source:/home/carlos/Escritorio/ProyectoVersionGina/Principal.cpp
+	"Principal.h"
+	"Match.h"
+	<cstdio>
+	"Game.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+
+1513625618 source:/home/carlos/Escritorio/ProyectoVersionGina/Match.cpp
+	"Match.h"
+	"SDL2/SDL.h"
+	"SDL2/SDL_image.h"
+	"Game.h"
+	<sstream>
+	<fstream>
+
+1513661386 source:c:\users\omar_\documents\escape from las huertas\bayron.cpp
+	"Bayron.h"
+	"Match.h"
+	"Game.h"
+
+1513661386 c:\users\omar_\documents\escape from las huertas\bayron.h
+	"Cholo.h"
+
+1513661386 c:\users\omar_\documents\escape from las huertas\cholo.h
+	"Character.h"
+	"Coordinate.h"
+
+1513661386 c:\users\omar_\documents\escape from las huertas\character.h
+	"Coordinate.h"
+	<string>
+	<SDL2/SDL.h>
+
+1513661386 c:\users\omar_\documents\escape from las huertas\coordinate.h
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\begin_code.h
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\close_code.h
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998638 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1513661386 c:\users\omar_\documents\escape from las huertas\match.h
+	<SDL2/SDL.h>
+	"Character.h"
+	"Nivel.h"
+
+1513661386 c:\users\omar_\documents\escape from las huertas\nivel.h
+	"Cholo.h"
+	"Principal.h"
+
+1513661386 c:\users\omar_\documents\escape from las huertas\principal.h
+	"Character.h"
+	<SDL2/SDL.h>
+	<stack>
+
+1513661388 c:\users\omar_\documents\escape from las huertas\game.h
+	<SDL2/SDL.h>
+	"Match.h"
+
+1513661386 source:c:\users\omar_\documents\escape from las huertas\brayan.cpp
+	"Brayan.h"
+	"Match.h"
+	"Game.h"
+
+1513661386 c:\users\omar_\documents\escape from las huertas\brayan.h
+	"Cholo.h"
+
+1547075891 source:c:\users\omar_\documents\escape from las huertas\button.cpp
+	"Button.h"
+	"SDL2/SDL.h"
+	"SDL2/SDL_image.h"
+
+1513661386 c:\users\omar_\documents\escape from las huertas\button.h
+	<SDL2/SDL.h>
+	<string>
+	"Coordinate.h"
+
+1547071804 source:c:\users\omar_\documents\escape from las huertas\character.cpp
+	"Character.h"
+	"Coordinate.h"
+	"Match.h"
+	"SDL2/SDL_image.h"
+	"Game.h"
+	<cstdio>
+
+1547071804 source:c:\users\omar_\documents\escape from las huertas\cholo.cpp
+	"Cholo.h"
+	"Match.h"
+	<cmath>
+	"SDL2/SDL.h"
+	"SDL2/SDL_image.h"
+
+1513661386 source:c:\users\omar_\documents\escape from las huertas\coordinate.cpp
+	"Coordinate.h"
+
+1547071804 source:c:\users\omar_\documents\escape from las huertas\game.cpp
+	"Game.h"
+	"Match.h"
+	"Button.h"
+	"Nivel.h"
+	<iostream>
+	<string>
+	"SDL2/SDL_ttf.h"
+	"SDL2/SDL_image.h"
+	<fstream>
+	<cstdlib>
+	<ctime>
+
+1513661386 source:c:\users\omar_\documents\escape from las huertas\kevin.cpp
+	"Kevin.h"
+	"Match.h"
+	"Game.h"
+
+1513661386 c:\users\omar_\documents\escape from las huertas\kevin.h
+	"Cholo.h"
+
+1547072952 source:c:\users\omar_\documents\escape from las huertas\main.cpp
+	"SDL2/SDL.h"
+	"SDL2/SDL_image.h"
+	"SDL2/SDL_ttf.h"
+	<cstdio>
+	<string>
+	"Match.h"
+	"Principal.h"
+	"Kevin.h"
+	"Brayan.h"
+	"Character.h"
+	"Nivel.h"
+	"Game.h"
+	"Button.h"
+	<fstream>
+
+1547069627 source:c:\users\omar_\documents\escape from las huertas\match.cpp
+	"Match.h"
+	"SDL2/SDL.h"
+	"SDL2/SDL_image.h"
+	"Game.h"
+	<sstream>
+	<fstream>
+	<ctime>
+
+1547071804 source:c:\users\omar_\documents\escape from las huertas\nivel.cpp
+	"Nivel.h"
+	<fstream>
+	"Brayan.h"
+	"Kevin.h"
+	"Bayron.h"
+	"Match.h"
+	"SDL2/SDL.h"
+	"SDL2/SDL_image.h"
+	<sstream>
+	"Game.h"
+
+1547071804 source:c:\users\omar_\documents\escape from las huertas\principal.cpp
+	"Principal.h"
+	"Match.h"
+	<cstdio>
+	"Game.h"
+	"SDL2/SDL.h"
+	"SDL2/SDL_image.h"
+
+1540998002 c:\users\omar_\documents\sdl2_image-2.0.4\x86_64-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998002 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1454362947 c:\users\omar_\documents\sdl2-2.0.9\x86_64-w64-mingw32\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\close_code.h
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998544 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540997982 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1454362933 c:\users\omar_\documents\sdl2-2.0.9\i686-w64-mingw32\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
