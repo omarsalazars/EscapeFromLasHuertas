@@ -1,9 +1,8 @@
 #include "Character.h"
 #include "Coordinate.h"
 #include "Match.h"
-#include "SDL2/SDL_image.h"
+#include <SDL2/SDL_image.h>
 #include "Game.h"
-#include <cstdio>
 
 Character::Character()
 {

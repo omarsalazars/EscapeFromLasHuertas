@@ -1,7 +1,7 @@
-#include "SDL2/SDL.h"
-#include "SDL2/SDL_image.h"
-#include "SDL2/SDL_ttf.h"
-#include <cstdio>
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
+#include <SDL2/SDL_ttf.h>
+#include <stdio.h>
 #include <string>
 #include "Match.h"
 #include "Principal.h"
@@ -24,9 +24,8 @@ SDL_Renderer* renderer=NULL;
 SDL_Texture* texture=NULL;
 SDL_Surface** Match::vidasSurfaces=NULL;
 
-int main(int argc, char *argv[])
+int main()
 {
-    printf("AAAAAAAAAAA");
     Game game;
     game.initGame();
     while(!Game::quit)
@@ -36,7 +35,6 @@ int main(int argc, char *argv[])
         ///REGISTRAR PUNTUACION
     }
     game.free();
-    return 0;
 }
 
 

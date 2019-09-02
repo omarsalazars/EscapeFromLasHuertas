@@ -2,12 +2,12 @@
 #include "Match.h"
 #include <cstdio>
 #include "Game.h"
-#include "SDL2/SDL.h"
-#include "SDL2/SDL_image.h"
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
 
 Principal::Principal()
 {
-    this->setImage("cholo4.png");
+    this->setImage("cholo1.png");
     this->setScore(0);
     this->setX(9*Game::objSize);
     this->setY(13*Game::objSize);

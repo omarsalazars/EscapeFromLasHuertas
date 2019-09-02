@@ -1,8 +1,8 @@
 #include "Cholo.h"
 #include "Match.h"
 #include <cmath>
-#include "SDL2/SDL.h"
-#include "SDL2/SDL_image.h"
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
 
 Cholo::Cholo()
 {

@@ -4,11 +4,9 @@
 #include "Nivel.h"
 #include <iostream>
 #include <string>
-#include "SDL2/SDL_ttf.h"
-#include "SDL2/SDL_image.h"
+#include <SDL2/SDL_ttf.h>
+#include <SDL2/SDL_image.h>
 #include <fstream>
-#include <cstdlib>
-#include <ctime>
 
 Game::Game(){
     this->quit=false;

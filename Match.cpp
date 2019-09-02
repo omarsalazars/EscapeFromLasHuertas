@@ -4,7 +4,6 @@
 #include "Game.h"
 #include <sstream>
 #include <fstream>
-#include <ctime>
 
 Match::Match()
 {
