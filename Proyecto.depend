@@ -5,15 +5,21 @@
 	"Match.h"
 	<SDL2/SDL_image.h>
 
+1567454377 image.h>
+
 1513037183 /home/omar/Documentos/Serna/ProyectoAlv/Proyecto/Character.h
 	"Coordinate.h"
 	<string>
 	<SDL2/SDL.h>
 
+1567454377 h>
+
 1512937299 /home/omar/Documentos/Serna/ProyectoAlv/Proyecto/Coordinate.h
 
 1512880232 source:/home/omar/Documentos/Serna/ProyectoAlv/Proyecto/Coordinate.cpp
 	"Coordinate.h"
+
+1567454377 e.h"
 
 1513036699 source:/home/omar/Documentos/Serna/ProyectoAlv/Proyecto/main.cpp
 	<SDL2/SDL.h>
@@ -27,14 +33,20 @@
 	"Brayan.h"
 	"Character.h"
 
+1567454377 .h"
+
 1513037184 source:/home/omar/Documentos/Serna/ProyectoAlv/Proyecto/Principal.cpp
 	"Principal.h"
 	"Match.h"
 	<cstdio>
 
+1567454377 
+
 1513037184 /home/omar/Documentos/Serna/ProyectoAlv/Proyecto/Principal.h
 	"Character.h"
 	"SDL2/SDL.h"
+
+1513037184 h"
 
 1512933261 source:/home/omar/Documentos/Serna/ProyectoAlv/Proyecto/Map.cpp
 	"Map.h"
@@ -58,6 +70,8 @@
 
 1512962639 source:/home/omar/Documentos/Serna/ProyectoAlv/Proyecto/Brayan.cpp
 	"Brayan.h"
+
+1513574778 
 
 1512962695 /home/omar/Documentos/Serna/ProyectoAlv/Proyecto/Brayan.h
 	"Cholo.h"
@@ -710,4 +724,139 @@
 
 1567454377 source:c:\users\omar_\documents\escapefromlashuertas\coordinate.cpp
 	"Coordinate.h"
+
+1606595337 source:/home/omar/Documents/gitomar/EscapeFromLasHuertas/Bayron.cpp
+	"Bayron.h"
+	"Match.h"
+	"Game.h"
+
+1606595337 /home/omar/Documents/gitomar/EscapeFromLasHuertas/Bayron.h
+	"Cholo.h"
+
+1606595337 /home/omar/Documents/gitomar/EscapeFromLasHuertas/Cholo.h
+	"Character.h"
+	"Coordinate.h"
+
+1606595337 /home/omar/Documents/gitomar/EscapeFromLasHuertas/Character.h
+	"Coordinate.h"
+	<string>
+	<SDL2/SDL.h>
+
+1606595337 /home/omar/Documents/gitomar/EscapeFromLasHuertas/Coordinate.h
+
+1606595337 /home/omar/Documents/gitomar/EscapeFromLasHuertas/Match.h
+	<SDL2/SDL.h>
+	"Character.h"
+	"Nivel.h"
+
+1606595337 /home/omar/Documents/gitomar/EscapeFromLasHuertas/Nivel.h
+	"Cholo.h"
+	"Principal.h"
+
+1606595337 /home/omar/Documents/gitomar/EscapeFromLasHuertas/Principal.h
+	"Character.h"
+	<SDL2/SDL.h>
+	<stack>
+
+1606595337 /home/omar/Documents/gitomar/EscapeFromLasHuertas/Game.h
+	<SDL2/SDL.h>
+	"Match.h"
+
+1606595337 source:/home/omar/Documents/gitomar/EscapeFromLasHuertas/Brayan.cpp
+	"Brayan.h"
+	"Match.h"
+	"Game.h"
+
+1606595337 /home/omar/Documents/gitomar/EscapeFromLasHuertas/Brayan.h
+	"Cholo.h"
+
+1606595337 source:/home/omar/Documents/gitomar/EscapeFromLasHuertas/Button.cpp
+	"Button.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+
+1606595337 /home/omar/Documents/gitomar/EscapeFromLasHuertas/Button.h
+	<SDL2/SDL.h>
+	<string>
+	"Coordinate.h"
+
+1606595337 source:/home/omar/Documents/gitomar/EscapeFromLasHuertas/Character.cpp
+	"Character.h"
+	"Coordinate.h"
+	"Match.h"
+	<SDL2/SDL_image.h>
+	"Game.h"
+
+1606595337 source:/home/omar/Documents/gitomar/EscapeFromLasHuertas/Cholo.cpp
+	"Cholo.h"
+	"Match.h"
+	<cmath>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+
+1606595337 source:/home/omar/Documents/gitomar/EscapeFromLasHuertas/Coordinate.cpp
+	"Coordinate.h"
+
+1606595337 source:/home/omar/Documents/gitomar/EscapeFromLasHuertas/Game.cpp
+	"Game.h"
+	"Match.h"
+	"Button.h"
+	"Nivel.h"
+	<iostream>
+	<string>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_image.h>
+	<fstream>
+
+1606595337 source:/home/omar/Documents/gitomar/EscapeFromLasHuertas/Kevin.cpp
+	"Kevin.h"
+	"Match.h"
+	"Game.h"
+
+1606595337 /home/omar/Documents/gitomar/EscapeFromLasHuertas/Kevin.h
+	"Cholo.h"
+
+1606595337 source:/home/omar/Documents/gitomar/EscapeFromLasHuertas/main.cpp
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<stdio.h>
+	<string>
+	"Match.h"
+	"Principal.h"
+	"Kevin.h"
+	"Brayan.h"
+	"Character.h"
+	"Nivel.h"
+	"Game.h"
+	"Button.h"
+	<fstream>
+
+1606595337 source:/home/omar/Documents/gitomar/EscapeFromLasHuertas/Match.cpp
+	"Match.h"
+	"SDL2/SDL.h"
+	"SDL2/SDL_image.h"
+	"Game.h"
+	<sstream>
+	<fstream>
+
+1606595337 source:/home/omar/Documents/gitomar/EscapeFromLasHuertas/Nivel.cpp
+	"Nivel.h"
+	<fstream>
+	"Brayan.h"
+	"Kevin.h"
+	"Bayron.h"
+	"Match.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<sstream>
+	"Game.h"
+
+1606595337 source:/home/omar/Documents/gitomar/EscapeFromLasHuertas/Principal.cpp
+	"Principal.h"
+	"Match.h"
+	<cstdio>
+	"Game.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
 

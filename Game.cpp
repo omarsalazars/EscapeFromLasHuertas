@@ -193,8 +193,8 @@ void Game::drawText(SDL_Surface* screen, string str,int size, int x, int y,int f
         printf("NEL PERRO\n");
         return;
     }
-    SDL_Color foregroundColor = { fR, fG, fB };
-    SDL_Color backgroundColor = { bR, bG, bB };
+    SDL_Color foregroundColor = { (Uint8)fR, (Uint8)fG, (Uint8)fB };
+    SDL_Color backgroundColor = { (Uint8)bR, (Uint8)bG, (Uint8)bB };
     SDL_Surface* textSurface= TTF_RenderText_Shaded(font, str.c_str(), foregroundColor, backgroundColor);
     SDL_Rect textLocation = { x, y, 0, 0 };
     SDL_BlitSurface(textSurface, NULL, screen, &textLocation);
