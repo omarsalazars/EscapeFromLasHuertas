@@ -6,13 +6,15 @@
 
 using namespace std;
 
+enum Direction { UP, DOWN, RIGHT, LEFT };
+
 class Character
 {
     private:
         string image,type,subtype;
         Coordinate position;
         Coordinate startingPosition;
-        char direction;
+        Direction direction;
         SDL_Surface* surface;
         int speed;
 
@@ -22,7 +24,7 @@ class Character
         virtual void changeDirection()=0; //Virtual para los cruces
         void loadSurface();
         void Motion();
-        bool canMoveInThatDirection(char);
+        bool canMoveInThatDirection(Direction direction);
         Uint32 motionCallback(Uint32 interval);
         static Uint32 motionCallback(Uint32 interval,void* param);
         void changePosition();
@@ -32,7 +34,7 @@ class Character
         string getSubtype(){return this->subtype;}
         Coordinate getPosition(){return this->position;}
         Coordinate getStartingPosition(){return this->startingPosition;}
-        char getDirection(){return this->direction;}
+        Direction getDirection(){return this->direction;}
         SDL_Surface* getSurface(){return this->surface;}
         int getX(){return this->getPosition().getX();}
         int getY(){return this->getPosition().getY();}
@@ -46,7 +48,7 @@ class Character
         void setStartingPosition(Coordinate startingPosition){this->startingPosition=startingPosition;}
         void setX(int x){this->position.setX(x);}
         void setY(int y){this->position.setY(y);}
-        void setDirection(char direction){this->direction=direction;}
+        void setDirection(Direction direction){this->direction=direction;}
         void setSurface(SDL_Surface* surface){this->surface=surface;}
 };
 #endif // CHARACTER_H

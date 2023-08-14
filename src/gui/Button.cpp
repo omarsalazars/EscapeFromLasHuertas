@@ -1,6 +1,7 @@
-#include "Button.h"
+#include <string>
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
+#include "../../include/Button.h"
 
 Button::Button(){
     this->surface=NULL;
@@ -14,19 +15,17 @@ Button::Button(int k)
 void Button::initButtons()
 {
     Button::buttonsSurfaces=new SDL_Surface**[3];
-    char arr[100]="img/option";
-    arr[12]='.';
-    arr[13]='p';
-    arr[14]='n';
-    arr[15]='g';
+    string image_preffix = "img/option";
+    string image_suffix = ".png";
     for(int i=0;i<3;i++)
     {
         buttonsSurfaces[i]=new SDL_Surface*[2];
         for(int j=0;j<2;j++)
         {
-            arr[10]=i+'0';
-            arr[11]=j+'0'+1;
-            buttonsSurfaces[i][j]=IMG_Load(arr);
+            string image_number = to_string(i);
+            string image_number_2 = to_string(j+1);
+            string image_name = image_preffix + image_number + image_number_2 + image_suffix;
+            buttonsSurfaces[i][j]=IMG_Load(image_name.c_str());
         }
     }
 }

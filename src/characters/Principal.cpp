@@ -1,7 +1,7 @@
-#include "Principal.h"
-#include "Match.h"
+#include "../../include/Principal.h"
+#include "../../include/Match.h"
 #include <cstdio>
-#include "Game.h"
+#include "../../include/Game.h"
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
 
@@ -12,7 +12,7 @@ Principal::Principal()
     this->setX(9*Game::objSize);
     this->setY(13*Game::objSize);
     this->setStartingPosition(Coordinate(8*Game::objSize,13*Game::objSize));
-    this->setDirection('r');
+    this->setDirection(RIGHT);
     this->loadSurface();
     this->setSpeed(5);
     this->lives.push("cartera");
@@ -29,16 +29,16 @@ void Principal::changeDirection(){
     switch(Game::event->key.keysym.sym)
     {
         case SDLK_UP:
-            this->setDirection('u');
+            this->setDirection(UP);
             break;
         case SDLK_DOWN:
-            this->setDirection('d');//down
+            this->setDirection(DOWN);
             break;
         case SDLK_LEFT:
-            this->setDirection('l');//left
+            this->setDirection(LEFT);
             break;
         case SDLK_RIGHT:
-            this->setDirection('r');
+            this->setDirection(RIGHT);
     }
 }
 

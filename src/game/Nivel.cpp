@@ -1,16 +1,18 @@
-#include "Nivel.h"
+#include "../../include/Nivel.h"
 #include <fstream>
-#include "Brayan.h"
-#include "Kevin.h"
-#include "Bayron.h"
-#include "Match.h"
+#include "../../include/Brayan.h"
+#include "../../include/Kevin.h"
+#include "../../include/Bayron.h"
+#include "../../include/Match.h"
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
 #include <sstream>
-#include "Game.h"
+#include "../../include/Game.h"
 
 using namespace std;
 Nivel::Nivel(string file="1"){
+
+    file = "levels/"+file;
     this->backgroundSurface=NULL;
     this->principal=Game::match->principal;
 
@@ -213,7 +215,7 @@ void Nivel::checkAtItem(Character *c)
 
             if(this->getItemsMap()[logicY][logicX]=='c'){//CAGUAMAS
                 for(int i=0; i<this->getTotalCholos(); i++){
-                    if(this->getCholos()[i]->getStatus() == "attack")
+                    if(this->getCholos()[i]->getStatus() == ATTACK)
                     {
                         this->getCholos()[i]->changeStatus();
                         this->getCholos()[i]->toggleSurface();

@@ -1,8 +1,8 @@
-#include "Character.h"
-#include "Coordinate.h"
-#include "Match.h"
+#include "../../include/Character.h"
+#include "../../include/Coordinate.h"
+#include "../../include/Match.h"
 #include <SDL2/SDL_image.h>
-#include "Game.h"
+#include "../../include/Game.h"
 
 Character::Character()
 {
@@ -24,15 +24,15 @@ void Character::loadSurface(){
         printf("No se pudo cargar %s",route.c_str());
 }
 
-bool Character::canMoveInThatDirection(char d){
+bool Character::canMoveInThatDirection(Direction direction){
 
     int logicX;
     int logicY;
     int characterX;
     int characterY;
-    switch (d){
+    switch (direction){
 
-        case 'u':
+        case UP:
             characterX=this->getX();
             characterY=this->getY()-1;
             logicX=characterX/Game::objSize;
@@ -45,7 +45,7 @@ bool Character::canMoveInThatDirection(char d){
 
             return false;
         break;
-        case 'd':
+        case DOWN:
             characterX=this->getX();
             characterY=this->getY();
             logicX=characterX/Game::objSize;
@@ -58,7 +58,7 @@ bool Character::canMoveInThatDirection(char d){
 
             return false;
         break;
-        case 'l':
+        case LEFT:
             if(this->getX()==0)
             {
                 this->setX(Game::objSize*Game::match->currentLevel->getCols()-Game::objSize+1);
@@ -77,7 +77,7 @@ bool Character::canMoveInThatDirection(char d){
 
             return false;
         break;
-        case 'r':
+        case RIGHT:
 
             characterX=this->getX();
             characterY=this->getY();
@@ -105,20 +105,20 @@ void Character::Motion(){
 
     switch(this->getDirection())
     {
-        case 'u':
-            if(canMoveInThatDirection('u'))
+        case UP:
+            if(canMoveInThatDirection(UP))
                 this->setY(this->getPosition().getY()-1);
             break;
-        case 'd':
-            if(canMoveInThatDirection('d'))
+        case DOWN:
+            if(canMoveInThatDirection(DOWN))
                 this->setY(this->getPosition().getY()+1);
             break;
-        case 'l':
-            if(canMoveInThatDirection('l'))
+        case LEFT:
+            if(canMoveInThatDirection(LEFT))
                 this->setX(this->getPosition().getX()-1);
             break;
-        case 'r':
-            if(canMoveInThatDirection('r'))
+        case RIGHT:
+            if(canMoveInThatDirection(RIGHT))
                 this->setX(this->getPosition().getX()+1);
             break;
     }

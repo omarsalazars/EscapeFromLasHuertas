@@ -1,5 +1,5 @@
-#include "Cholo.h"
-#include "Match.h"
+#include "../../include/Cholo.h"
+#include "../../include/Match.h"
 #include <cmath>
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
@@ -45,7 +45,7 @@ void Cholo::changeDirection()
     Coordinate aux;
     switch(this->getDirection())
     {
-        case 'u':
+        case UP:
         ///UP
         aux.setY(-1);
         aux.setX(0);
@@ -59,7 +59,7 @@ void Cholo::changeDirection()
         aux.setX(-1);
         dir[2] = aux;
         break;
-        case 'd':
+        case DOWN:
         ///DOWN
         aux.setY(1);
         aux.setX(0);
@@ -73,7 +73,7 @@ void Cholo::changeDirection()
         aux.setX(-1);
         dir[2] = aux;
         break;
-        case'l':
+        case LEFT:
         aux.setY(1);
         aux.setX(0);
         dir[0] = aux;
@@ -86,7 +86,7 @@ void Cholo::changeDirection()
         aux.setX(-1);
         dir[2] = aux;
         break;
-        case'r':
+        case RIGHT:
         aux.setY(1);
         aux.setX(0);
         dir[0] = aux;
@@ -104,7 +104,7 @@ void Cholo::changeDirection()
     double men = 1000000000000;
     double dis;
     int posmen;
-    char newDirection;
+    Direction newDirection;
 
     for(int i=0; i<=2; i++)
     {
@@ -114,13 +114,13 @@ void Cholo::changeDirection()
 
         dis=sqrt(suma);
         if(dir[i].getX()== 1 && dir[i].getY()==0)
-        newDirection = 'r';
+        newDirection = RIGHT;
         if(dir[i].getX()== -1 && dir[i].getY()==0)
-        newDirection = 'l';
+        newDirection = LEFT;
         if(dir[i].getX()== 0 && dir[i].getY()==-1)
-        newDirection = 'u';
+        newDirection = UP;
         if(dir[i].getX()== 0 && dir[i].getY()==1)
-        newDirection = 'd';
+        newDirection = DOWN;
 
         if(dis<men && this->canMoveInThatDirection(newDirection))
         {
@@ -132,41 +132,41 @@ void Cholo::changeDirection()
     Coordinate newPosition=dir[posmen];
 
     if(newPosition.getX()== 1 && newPosition.getY()==0)
-        this->setDirection('r');
+        this->setDirection(RIGHT);
     if(newPosition.getX()== -1 && newPosition.getY()==0)
-        this->setDirection('l');
+        this->setDirection(LEFT);
     if(newPosition.getX()== 0 && newPosition.getY()==-1)
-        this->setDirection('u');
+        this->setDirection(UP);
     if(newPosition.getX()== 0 && newPosition.getY()==1)
-        this->setDirection('d');
+        this->setDirection(DOWN);
 }
 
 void Cholo::changeStatus()
 {
-    if(this->getStatus()=="attack")
+    if(this->getStatus() == ATTACK)
     {
         SDL_AddTimer( 6 * 1000, changeStatusCallback,this);
-        this->setStatus("defense");
+        this->setStatus(DEFENSE);
             this->setTarget(this->getHidingPosition());
             switch(this->getDirection())
             {
-                case 'l':
-                    this->setDirection('r');
+                case LEFT:
+                    this->setDirection(RIGHT);
                     break;
-                case 'r':
-                    this->setDirection('l');
+                case RIGHT:
+                    this->setDirection(LEFT);
                     break;
-                case 'u':
-                    this->setDirection('d');
+                case UP:
+                    this->setDirection(DOWN);
                     break;
-                case 'd':
-                    this->setDirection('u');
+                case DOWN:
+                    this->setDirection(UP);
                     break;
             }
     }
     else
     {
-        this->setStatus("attack");
+        this->setStatus(ATTACK);
         this->toggleSurface();
     }
 }

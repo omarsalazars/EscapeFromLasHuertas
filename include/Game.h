@@ -28,7 +28,7 @@ class Game
         static SDL_Event* event;
         bool initGame();
         static Match *match;
-        static void drawText(SDL_Surface*,string,int,int,int,int,int,int,int,int,int);
+        static void drawText(SDL_Surface*,string,int,int,int,const SDL_Color foregroundColor, const SDL_Color backgroundColor);
         static void displayScores();
 };
 

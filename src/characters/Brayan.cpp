@@ -1,15 +1,15 @@
-#include "Brayan.h"
-#include "Match.h"
-#include "Game.h"
+#include "../../include/Brayan.h"
+#include "../../include/Match.h"
+#include "../../include/Game.h"
 
 Brayan::Brayan()
 {
     this->setImage("cholo1.png");
 
-    this->setDirection('r');
+    this->setDirection(RIGHT);
     this->loadSurface();
     this->setHidingPosition(Coordinate(1,1));
-    this->setStatus("attack");
+    this->setStatus(ATTACK);
     this->setSpeed(100);
     this->loadFrightenedSurface();
 }

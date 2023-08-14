@@ -1,7 +1,8 @@
-#include "Match.h"
+#include "../../include/Match.h"
+#include "../../include/Game.h"
+#include "../../include/Color.h"
 #include "SDL2/SDL.h"
 #include "SDL2/SDL_image.h"
-#include "Game.h"
 #include <sstream>
 #include <fstream>
 
@@ -85,14 +86,14 @@ void Match::playLevel(int level)
 
     string nivel="Nivel "+numstring;
     Game::clearWindowSurface();
-    Game::drawText(Game::windowSurface,nivel.c_str(),100,350,250,255,255,255,0,0,0);
+    Game::drawText(Game::windowSurface,nivel.c_str(), 100, 350, 250, Color::WHITE, Color::BLACK);
     Game::updateWindow();
     SDL_Delay(1000);
     Game::clearWindowSurface();
     Game::updateWindow();
 
-    Game::drawText(Game::windowSurface, "NIVEL "+numstring, 30,770,50,255,255,255,0,0,0);
-    Game::drawText(Game::windowSurface, "Puntuacion:", 30,770,100,255,255,255,0,0,0);
+    Game::drawText(Game::windowSurface, "NIVEL "+numstring, 30, 770, 50, Color::WHITE, Color::BLACK);
+    Game::drawText(Game::windowSurface, "Puntuacion:", 30, 770, 100, Color::WHITE, Color::BLACK);
     Game::match->currentLevel = new Nivel(numstring);
 
     int totalCholos = Game::match->currentLevel->getTotalCholos();
@@ -103,7 +104,7 @@ void Match::playLevel(int level)
     cholos = new Cholo*[totalCholos];
     cholos = Game::match->currentLevel->getCholos();
 
-    char newDirection;
+    Direction newDirection;
     Game::match->drawBackground(Game::match->currentLevel->getBackgroundSurface());
         for(int i=0; i<Game::match->currentLevel->getTotalCholos(); i++){
             Game::match->drawCharacter(cholos[i]);
@@ -132,16 +133,16 @@ void Match::playLevel(int level)
                     switch(Game::event->key.keysym.sym)
                     {
                         case SDLK_UP:
-                            newDirection='u';
+                            newDirection = UP;
                             break;
                         case SDLK_DOWN:
-                            newDirection='d';//down
+                            newDirection = DOWN;
                             break;
                         case SDLK_LEFT:
-                            newDirection = 'l';
+                            newDirection = LEFT;
                             break;
                         case SDLK_RIGHT:
-                            newDirection = 'r';
+                            newDirection = RIGHT;
                             break;
                     }
                     if(principal->canMoveInThatDirection(newDirection)){
@@ -156,7 +157,7 @@ void Match::playLevel(int level)
         ///ACTUALIZAR POSICIONES Y DIRECCIONES CHOLOS
         for(int i=0; i<totalCholos; i++)
         {
-            if(cholos[i]->getStatus()=="attack")
+            if(cholos[i]->getStatus() == ATTACK)
             cholos[i]->changeTarget();
             if(Game::match->currentLevel->atCross(cholos[i]))
                 cholos[i]->changeDirection();
@@ -176,7 +177,7 @@ void Match::playLevel(int level)
             choloLogicY = (cholos[i]->getY()+Game::objSize/2)/Game::objSize;
             if(characterLogicX==choloLogicX && characterLogicY==choloLogicY)
             {
-                if(cholos[i]->getStatus()=="attack")
+                if(cholos[i]->getStatus() == ATTACK)
                 {
                     principal->setPosition(principal->getStartingPosition());
                     for(int i=0; i<totalCholos; i++)
@@ -218,8 +219,8 @@ string Match::getName()
 {
     bool finished = false;
     string nombre="";
-    Game::drawText(Game::windowSurface, "Introduce tu nombre", 30,0,0,255,255,255,0,0,0);
-    Game::drawText(Game::windowSurface, nombre, 30,0,40,255,255,255,0,0,0);
+    Game::drawText(Game::windowSurface, "Introduce tu nombre", 30,0,0, Color::WHITE, Color::BLACK);
+    Game::drawText(Game::windowSurface, nombre, 30,0,40, Color::WHITE, Color::BLACK);
     Game::updateWindow();
 
 
@@ -329,8 +330,8 @@ string Match::getName()
                     break;
                 }
             }
-            Game::drawText(Game::windowSurface, "Introduce tu nombre", 30,0,0,255,255,255,0,0,0);
-            Game::drawText(Game::windowSurface, nombre, 30,0,40,255,255,255,0,0,0);
+            Game::drawText(Game::windowSurface, "Introduce tu nombre", 30,0,0, Color::WHITE, Color::BLACK);
+            Game::drawText(Game::windowSurface, nombre, 30,0,40, Color::WHITE, Color::BLACK);
             Game::updateWindow();
         }
     }
@@ -377,7 +378,7 @@ void Match::setScore()
     remove("scores.txt");
     rename("aux.txt", "scores.txt");
     Game::clearWindowSurface();
-    Game::drawText(Game::windowSurface, "Se ha registrado tu puntuacion", 30,0,0,255,255,255,0,0,0);
+    Game::drawText(Game::windowSurface, "Se ha registrado tu puntuacion", 30,0,0, Color::WHITE, Color::BLACK);
     Game::updateWindow();
     SDL_Delay(1500);
     Game::clearWindowSurface();
@@ -388,5 +389,5 @@ void Match::drawScore()
     stringstream ss;
     ss<<this->principal->getScore();
     string numstring=ss.str();
-    Game::drawText(Game::windowSurface, numstring, 30,940,100,255,255,255,0,0,0);
+    Game::drawText(Game::windowSurface, numstring, 30,940,100, Color::WHITE, Color::BLACK);
 }

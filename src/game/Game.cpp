@@ -1,7 +1,8 @@
-#include "Game.h"
-#include "Match.h"
-#include "Button.h"
-#include "Nivel.h"
+#include "../../include/Game.h"
+#include "../../include/Match.h"
+#include "../../include/Button.h"
+#include "../../include/Nivel.h"
+#include "../../include/Color.h"
 #include <iostream>
 #include <string>
 #include <SDL2/SDL_ttf.h>
@@ -51,12 +52,13 @@ void Game::drawStretchSurface(SDL_Surface* surface,int x,int y,int w,int h)
 
 void Game::displayMenu()
 {
+    const int OPTIONS_SIZE = 3;
     Game::clearWindowSurface();
     SDL_Surface* title=IMG_Load("images/vectorizados/title.png");
     drawStretchSurface(title,350,50,400,200);
     Button **buttons;
-    buttons=new Button*[3];
-    for(int i=0;i<3;i++)
+    buttons=new Button*[OPTIONS_SIZE];
+    for(int i=0;i<OPTIONS_SIZE;i++)
     {
         buttons[i]=new Button(i);
         if(i==0)
@@ -134,8 +136,9 @@ void Game::updateWindow(){
 
 void Game::playMatch()
 {
+    const int LEVELS = 3;
         Game::match=new Match();
-        for(int i=1;i<=3;i++)
+        for(int i=1;i<=LEVELS;i++)
         {
             Game::match->playLevel(i);
             if(Game::quit==true)
@@ -146,7 +149,7 @@ void Game::playMatch()
             if(Game::match->principal->getLost() || Game::quit)
             {
                 Game::clearWindowSurface();
-                Game::drawText(Game::windowSurface,"Perdiste :(",100,350,250,255,255,255,0,0,0);
+                Game::drawText(Game::windowSurface,"Perdiste :(", 100, 350, 250, Color::WHITE, Color::BLACK);
                 Game::updateWindow();
                 SDL_Delay(1000);
                 Game::clearWindowSurface();
@@ -159,7 +162,7 @@ void Game::playMatch()
         if(!Game::match->principal->getLost())
         {
                 Game::clearWindowSurface();
-                Game::drawText(Game::windowSurface,"Ganaste! :D",100,350,250,255,255,255,0,0,0);
+                Game::drawText(Game::windowSurface, "Ganaste! :D", 100, 350, 250, Color::WHITE, Color::BLACK);
                 Game::updateWindow();
                 SDL_Delay(1000);
                 Game::clearWindowSurface();
@@ -185,16 +188,14 @@ void Game::free(){
     Button::freeButtons();
 }
 
-void Game::drawText(SDL_Surface* screen, string str,int size, int x, int y,int fR, int fG, int fB,int bR, int bG, int bB)
+void Game::drawText(SDL_Surface* screen, string str, int size, int x, int y, const SDL_Color foregroundColor, const SDL_Color backgroundColor)
 {
     TTF_Font* font = TTF_OpenFont("Roboto-Regular.ttf", size );
     if(!font)
     {
-        printf("NEL PERRO\n");
+        printf("Unable to load font.\n");
         return;
     }
-    SDL_Color foregroundColor = { (Uint8)fR, (Uint8)fG, (Uint8)fB };
-    SDL_Color backgroundColor = { (Uint8)bR, (Uint8)bG, (Uint8)bB };
     SDL_Surface* textSurface= TTF_RenderText_Shaded(font, str.c_str(), foregroundColor, backgroundColor);
     SDL_Rect textLocation = { x, y, 0, 0 };
     SDL_BlitSurface(textSurface, NULL, screen, &textLocation);
@@ -205,7 +206,7 @@ void Game::drawText(SDL_Surface* screen, string str,int size, int x, int y,int f
 void Game::displayScores()
 {
     Game::clearWindowSurface();
-    Game::drawText(Game::windowSurface, "Puntuaciones",20,0, 0, 255,255,255,0,0,0);
+    Game::drawText(Game::windowSurface, "Puntuaciones",20,0, 0, Color::WHITE, Color::BLACK);
 
     fstream file;
     file.open("scores.txt", ios::in);
@@ -213,14 +214,14 @@ void Game::displayScores()
     int fScore;
     string info;
     int cont = 1;
-    Game::drawText(Game::windowSurface, "Alias   Puntuacion  Fecha",20,20, cont*25, 255,255,255,0,0,0);
+    Game::drawText(Game::windowSurface, "Alias   Puntuacion  Fecha",20,20, cont*25, Color::WHITE, Color::BLACK);
     cont++;
 
     while (getline(file,info)) {
-        Game::drawText(Game::windowSurface, info,20,20, cont*25, 255,255,255,0,0,0);
+        Game::drawText(Game::windowSurface, info,20,20, cont*25, Color::WHITE, Color::BLACK);
         cont++;
     }
-    Game::drawText(Game::windowSurface, "Presiona Enter para continuar",20,0, cont*25, 255,255,255,0,0,0);
+    Game::drawText(Game::windowSurface, "Presiona Enter para continuar",20,0, cont*25, Color::WHITE, Color::BLACK);
     bool salir = false;
     file.close();
     Game::updateWindow();
